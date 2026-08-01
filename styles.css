@@ -50,7 +50,7 @@
   /* NAV */
   nav{
     position:sticky; top:0; z-index:50;
-    background:rgba(251,248,243,0.94);
+    background:--ink-soft: #3A5175;
     backdrop-filter:blur(8px);
     border-bottom:1px solid var(--line);
   }
