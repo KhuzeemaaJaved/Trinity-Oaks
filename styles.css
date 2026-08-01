@@ -50,7 +50,7 @@
   /* NAV */
   nav{
     position:sticky; top:0; z-index:50;
-    background:rgba(251,248,243,0.94);
+    background:var(-ink);
     backdrop-filter:blur(8px);
     border-bottom:1px solid var(--line);
   }
@@ -64,7 +64,7 @@
     color:var(--sage); border:1px solid var(--line); border-radius:20px; padding:6px 14px;
     white-space:nowrap;
   }
-  .navlinks{display:flex;gap:30px;font-size:0.92rem;font-weight:600;color:var(-ink);}
+  .navlinks{display:flex;gap:30px;font-size:0.92rem;font-weight:600;color:var(-ink-soft);}
   .navlinks a:hover{color:var(--coral);}
   .nav-right{display:flex;align-items:center;gap:18px;}
   .nav-phone{font-weight:700; font-size:0.95rem;}
